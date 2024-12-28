@@ -10,7 +10,6 @@ async function bootstrap() {
   // Configurar CORS
   app.enableCors({
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-      credentials: true, // Permitir el envío de credenciales (cookies, auth)
   });
 
  // Configurar el Swagger
