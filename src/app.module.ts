@@ -4,7 +4,7 @@ import { TaskModule } from './task/task.module';
 
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb+srv://hansaguillon:Sanca7521@task.ztxin.mongodb.net/taskdb?retryWrites=true&w=majority&appName=task' ), TaskModule],
+  imports: [MongooseModule.forRoot(`mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASS}@task.ztxin.mongodb.net/${process.env.MONGODB_CLUSTER}?retryWrites=true&w=majority&appName=${process.env.MONGODB_DATABASE}` ), TaskModule],
 
   
   controllers: [],
