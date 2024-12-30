@@ -66,4 +66,4 @@ git commit -m 'Descripción de la funcionalidad'
 
 ## Contacto
 - 📧 Email: hansaguillon@gmail.com
-- 🌐 LinkedIn: Juan Pedro Aguillón
+- 🌐 LinkedIn: [Juan Pedro Aguillón](https://www.linkedin.com/in/juanpedroaguillon/)
