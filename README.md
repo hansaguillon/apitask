@@ -43,7 +43,7 @@ npm run start:dev
 ```
 
 2. Acceder a:
-- API: http://localhost:3000
+- API: http://localhost:3000/task
 - Documentación: http://localhost:3000/docs
 
 ### Despliegue
