@@ -46,8 +46,22 @@ npm run start:dev
 - API: http://localhost:3000
 - Documentación: http://localhost:3000/docs
 
-## Despliegue
-Backend desplegado en Render
+### Despliegue
+El proyecto está desplegado en la siguiente plataforma:
+- **Backend**: [API de Tareas en Render](https://apitask-ixqf.onrender.com/task)
+
+---
+
+### Activación del Backend Online
+Debido al comportamiento de Render, el backend entra en estado de hibernación cuando no está en uso. Para garantizar el correcto funcionamiento de la aplicación:
+
+1. Accede a la URL del backend en Render:
+   ```bash
+   https://apitask-ixqf.onrender.com/task
+   ```
+2. Una vez que la página cargue, el backend estará activo y podrás utilizar el frontend normalmente.
+
+---
 
 ## Contribuciones
 
